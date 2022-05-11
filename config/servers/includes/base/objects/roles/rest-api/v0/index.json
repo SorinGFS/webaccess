@@ -1,0 +1,11 @@
+[
+    {
+        "roles": [
+            { "include": "includes/base/objects/roles/rest-api/v0/public" },
+            { "include": "includes/base/objects/roles/rest-api/v0/authenticated" },
+            { "include": "includes/base/objects/roles/rest-api/v0/author" },
+            { "include": "includes/base/objects/roles/rest-api/v0/admin" },
+            { "include": "includes/base/objects/roles/rest-api/v0/owner" }
+        ]
+    }
+]

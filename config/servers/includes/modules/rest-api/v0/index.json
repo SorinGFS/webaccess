@@ -1,0 +1,312 @@
+[
+    {
+        "restApi": [
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "index",
+                    "single": true
+                },
+                "api": {
+                    "method": "findOne",
+                    "arguments": ["site.filter", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "index",
+                    "single": true
+                },
+                "api": {
+                    "method": "insertOne",
+                    "arguments": ["body", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "PATCH",
+                    "action": "index",
+                    "single": true
+                },
+                "api": {
+                    "method": "updateOne",
+                    "arguments": ["site.filter", "body", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "PUT",
+                    "action": "index",
+                    "single": true
+                },
+                "api": {
+                    "method": "upsertOne",
+                    "arguments": ["site.filter", "body", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "DELETE",
+                    "action": "index",
+                    "single": true
+                },
+                "api": {
+                    "method": "deleteOne",
+                    "arguments": ["site.filter", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "index",
+                    "single": false
+                },
+                "api": {
+                    "method": "findMany",
+                    "arguments": ["site.filter", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "index",
+                    "single": false
+                },
+                "api": {
+                    "method": "insertMany",
+                    "arguments": ["body", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "PATCH",
+                    "action": "index",
+                    "single": false
+                },
+                "api": {
+                    "method": "updateMany",
+                    "arguments": ["site.filter", "body", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "PUT",
+                    "action": "index",
+                    "single": false
+                },
+                "api": {
+                    "method": "upsertMany",
+                    "arguments": ["body"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "DELETE",
+                    "action": "index",
+                    "single": false
+                },
+                "api": {
+                    "method": "deleteMany",
+                    "arguments": ["site.filter", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "procedure"
+                },
+                "api": {
+                    "method": "aggregate",
+                    "arguments": ["body", "site.options.aggregateOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "validation"
+                },
+                "api": {
+                    "method": "returnArg",
+                    "arguments": ["site.validation"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "validation"
+                },
+                "api": {
+                    "method": "setValidation",
+                    "arguments": ["body", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "indexes"
+                },
+                "api": {
+                    "method": "listIndexes"
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "indexes"
+                },
+                "api": {
+                    "method": "createIndex",
+                    "arguments": ["body", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "DELETE",
+                    "action": "indexes"
+                },
+                "api": {
+                    "method": "dropIndex",
+                    "arguments": ["site.options.key"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "count"
+                },
+                "api": {
+                    "method": "count",
+                    "arguments": ["site.filter", "site.options"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "distinct"
+                },
+                "api": {
+                    "method": "distinct",
+                    "arguments": ["site.options.key", "site.filter", "site.options.commandOperationOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "info"
+                },
+                "api": {
+                    "method": "info"
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "controllers"
+                },
+                "api": {
+                    "method": "listAuthorizedControllers"
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "controllers"
+                },
+                "api": {
+                    "method": "createController",
+                    "arguments": ["site.options.name", "site.options.createControllerOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "PATCH",
+                    "action": "controllers"
+                },
+                "api": {
+                    "method": "setControllerOptions",
+                    "arguments": ["site.options.controllerOptions", "site.options.commandOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "PUT",
+                    "action": "controllers"
+                },
+                "api": {
+                    "method": "renameController",
+                    "arguments": ["site.options.from", "site.options.to", "site.options.renameOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "DELETE",
+                    "action": "controllers"
+                },
+                "api": {
+                    "method": "dropController",
+                    "arguments": ["site.options.name", "site.options.commandOperationOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "GET",
+                    "action": "databases"
+                },
+                "api": {
+                    "method": "listAuthorizedDatabases"
+                }
+            },
+            {
+                "rest": {
+                    "method": "DELETE",
+                    "action": "databases"
+                },
+                "api": {
+                    "method": "dropDatabase",
+                    "arguments": ["site.options.commandOperationOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "users"
+                },
+                "api": {
+                    "method": "addUser",
+                    "arguments": ["body.username", "body.password", "body.addUserOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "DELETE",
+                    "action": "users"
+                },
+                "api": {
+                    "method": "removeUser",
+                    "arguments": ["site.options.username", "site.options.commandOperationOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "POST",
+                    "action": "admins"
+                },
+                "api": {
+                    "method": "addAdmin",
+                    "arguments": ["body.username", "body.password", "body.addUserOptions"]
+                }
+            },
+            {
+                "rest": {
+                    "method": "DELETE",
+                    "action": "admins"
+                },
+                "api": {
+                    "method": "removeAdmin",
+                    "arguments": ["site.options.username", "site.options.commandOperationOptions"]
+                }
+            }
+        ]
+    }
+]

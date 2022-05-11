@@ -1,0 +1,1 @@
+[{ "rateLimit": { "ip": { "skipFailedRequests": true, "skipSuccessfulRequests": true } } }]

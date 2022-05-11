@@ -1,0 +1,19 @@
+[
+    {
+        "router": {
+            "vars": {
+                "$languages": "[a-z]{2}|[a-z]{2}-[a-z]{2}",
+                "$controllers": "[a-z]{3,30}",
+                "$actions": ["count", "distinct", "procedure", "validation", "indexes", "info", "databases", "controllers", "users", "admins"],
+                "$_ids": "[a-f0-9]{1,24}"
+            },
+            "routes": [
+                "/:language($languages)?/:_id($_ids)?/:action($actions)/*",
+                "/:language($languages)?/:controller($controllers)?/:_id($_ids)?/:action($actions)?/*"
+            ],
+            "options": {
+                "strict": true
+            }
+        }
+    }
+]

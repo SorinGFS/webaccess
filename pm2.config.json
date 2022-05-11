@@ -1,0 +1,23 @@
+{
+    "apps": [
+        {
+            "name": "proxy",
+            "script": "./index.js",
+            "env": {
+                "NODE_ENV": "production"
+            },
+            "instances": "max",
+            "exec_mode": "cluster"
+        },
+        {
+            "name": "proxy-dev",
+            "script": "./index.js",
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "instances": "max",
+            "exec_mode": "cluster",
+            "watch": true
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "role": "author",
+        "allow": [
+            { "include": "includes/base/properties/methods/model/findOne" },
+            { "include": "includes/base/properties/methods/model/findMany" },
+            { "include": "includes/base/properties/methods/model/insertOne" },
+            { "include": "includes/base/properties/methods/model/updateOne" },
+            { "include": "includes/base/properties/methods/model/listIndexes" },
+            { "include": "includes/base/properties/methods/model/getValidation" }
+        ]
+    }
+]

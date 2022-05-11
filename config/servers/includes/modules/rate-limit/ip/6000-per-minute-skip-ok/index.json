@@ -1,0 +1,1 @@
+[{ "rateLimit": { "ip": { "max": 6000, "skipSuccessfulRequests": true } } }]

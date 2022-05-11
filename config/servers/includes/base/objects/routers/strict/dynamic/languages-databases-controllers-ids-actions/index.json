@@ -1,0 +1,13 @@
+[
+    {
+        "router": {
+            "vars": {
+                "$adminActions": ["databases", "admins"],
+                "$dbActions": ["databases", "controllers", "users"],
+                "$controllerActions": ["count", "distinct", "procedure", "validation", "indexes", "info", "controllers"]
+            },
+            "routes": ["/admin/:database/:action($adminActions)/*", "/:database/:action($dbActions)/*", "/:database/:controller/:_id($_ids)?/:action($controllerActions)?/*"],
+            "options": { "strict": true }
+        }
+    }
+]

@@ -1,0 +1,1 @@
+[{ "rateLimit": { "route": { "max": 20, "skipFailedRequests": true} } }]

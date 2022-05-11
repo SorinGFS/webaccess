@@ -1,0 +1,28 @@
+[
+    {
+        "serverName": "localhost",
+        "secretKey": "ad5e8122010320f2782f7ebae6539ff222974b53854cb511b053b31cd32690e0",
+        "server": {
+            "proxyPass": "localhost:1337",
+            "csrfProtection": true,
+            "auth": {
+                "mode": "slideExpiration",
+                "provider": { "name": "strapi", "id": 1337, "trusted": true },
+                "bindCsrs": true
+            },
+            "locations": [
+                {
+                    "^/public/": {
+                        "auth": {
+                            "mode": false
+                        }
+                    }
+                }
+            ],
+            "devTools": {
+                "consoleLogger": { "authenticate": ["authenticated"] },
+                "performanceTimer": ["authenticate"]
+            }
+        }
+    }
+]

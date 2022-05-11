@@ -1,0 +1,14 @@
+{
+    "database": "access",
+    "connector": "mongodb",
+    "authenticator": {
+        "database": null,
+        "username": null,
+        "password": null
+    },
+    "hosts": [{ "hostname": null, "port": null }],
+    "options": {
+        "retryWrites": true,
+        "writeConcern": { "w": "majority" }
+    }
+}

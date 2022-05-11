@@ -1,0 +1,9 @@
+{
+    "accessDbName": "access",
+    "listen": true,
+    "settings": {
+        "query parser": false,
+        "x-powered-by": false,
+        "trust proxy": false
+    }
+}

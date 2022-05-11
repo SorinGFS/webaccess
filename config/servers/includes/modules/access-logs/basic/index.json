@@ -1,0 +1,1 @@
+[{ "accessLogs": ["ip", "method", "hostname", "url", "headers"] }]

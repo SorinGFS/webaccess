@@ -1,0 +1,37 @@
+[
+    {
+        "role": "owner",
+        "allow": [
+            { "include": "includes/base/properties/methods/model/findOne" },
+            { "include": "includes/base/properties/methods/model/findMany" },
+            { "include": "includes/base/properties/methods/model/insertOne" },
+            { "include": "includes/base/properties/methods/model/insertMany" },
+            { "include": "includes/base/properties/methods/model/updateOne" },
+            { "include": "includes/base/properties/methods/model/updateMany" },
+            { "include": "includes/base/properties/methods/model/upsertOne" },
+            { "include": "includes/base/properties/methods/model/upsertMany" },
+            { "include": "includes/base/properties/methods/model/deleteOne" },
+            { "include": "includes/base/properties/methods/model/deleteMany" },
+            { "include": "includes/base/properties/methods/model/aggregate" },
+            { "include": "includes/base/properties/methods/model/count" },
+            { "include": "includes/base/properties/methods/model/distinct" },
+            { "include": "includes/base/properties/methods/model/listIndexes" },
+            { "include": "includes/base/properties/methods/model/createIndex" },
+            { "include": "includes/base/properties/methods/model/dropIndex" },
+            { "include": "includes/base/properties/methods/model/info" },
+            { "include": "includes/base/properties/methods/model/getValidation" },
+            { "include": "includes/base/properties/methods/model/setValidation" },
+            { "include": "includes/base/properties/methods/model/setControllerOptions" },
+            { "include": "includes/base/properties/methods/model/listAuthorizedControllers" },
+            { "include": "includes/base/properties/methods/model/createController" },
+            { "include": "includes/base/properties/methods/model/dropController" },
+            { "include": "includes/base/properties/methods/model/renameController" },
+            { "include": "includes/base/properties/methods/model/addUser" },
+            { "include": "includes/base/properties/methods/model/removeUser" },
+            { "include": "includes/base/properties/methods/model/dropDatabase" },
+            { "include": "includes/base/properties/methods/model/listAuthorizedDatabases" },
+            { "include": "includes/base/properties/methods/model/addAdmin" },
+            { "include": "includes/base/properties/methods/model/removeAdmin" }
+        ]
+    }
+]

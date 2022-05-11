@@ -1,0 +1,59 @@
+{
+  "name": "webaccess",
+  "version": "0.0.1",
+  "description": "Access Management Reverse Proxy based on JWT.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node .",
+    "dev": "cross-env NODE_ENV=development nodemon .",
+    "action": "node node_modules/webaccess-actions",
+    "updateMaxMindDb": "node ./node_modules/geoip-lite/scripts/updatedb.js"
+  },
+  "author": "SorinGFS (https://github.com/SorinGFS)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SorinGFS/webaccess.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "4.17.3",
+    "webaccess-actions": "0.0.1",
+    "webaccess-base": "0.0.1",
+    "webaccess-middlewares": "0.0.1",
+    "express-http-proxy": "^1.6.3",
+    "http-errors": "2.0.0",
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "commander": "^8.2.0",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.13",
+    "npm": "7.24.2"
+  },
+  "engines": {
+    "node": ">=12.19.0",
+    "npm": ">=6.0.0"
+  },
+  "keywords": [
+    "jwt",
+    "access",
+    "proxy",
+    "api",
+    "auth",
+    "framework",
+    "http",
+    "json",
+    "security",
+    "MongoDB",
+    "infrastructure",
+    "backend",
+    "open source",
+    "self hosted",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/SorinGFS/webaccess/issues"
+  },
+  "homepage": "https://github.com/SorinGFS/webaccess#readme"
+}

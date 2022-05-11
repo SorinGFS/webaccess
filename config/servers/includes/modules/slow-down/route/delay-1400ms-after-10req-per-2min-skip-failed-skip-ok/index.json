@@ -1,0 +1,1 @@
+[{ "slowDown": { "route": { "delayAfter": 10, "skipFailedRequests": true, "skipSuccessfulRequests": true } } }]

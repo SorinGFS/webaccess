@@ -1,0 +1,10 @@
+[
+    { 
+        "role": "authenticated",
+        "allow": [
+            { "include": "includes/base/properties/methods/model/findOne" }, 
+            { "include": "includes/base/properties/methods/model/findMany" }, 
+            { "include": "includes/base/properties/methods/model/listIndexes" }
+        ]
+    }
+]
