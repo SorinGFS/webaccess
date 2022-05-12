@@ -1,4 +1,4 @@
-# Express Access Proxy
+# WebAccess
 
 Access Management Reverse Proxy based on JWT.
 
@@ -10,12 +10,12 @@ It is a fact that access to internal applications can be much more easily contro
 
     * node: >=12.19.0
     * npm: >=6.0.0
-    * mongoDB >=2.6
+    * mongoDB >=3.6 (required if auth, access logs or error logs are enabled, or for restApi)
     * downstream server Nginx, Apache, or whatever, to proxy connections to this host (default `localhost:7331` for production, `localhost:3002` for development)
 
 ### Installation
 
-Express Access Proxy itself is just a transparent proxy. Install it first:
+WebAccess itself is just a transparent proxy. Install it first:
 
 ```shell
 cd /path/to/desired/location
