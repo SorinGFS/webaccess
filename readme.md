@@ -124,6 +124,7 @@ server {
                 - [Data Adapter](https://github.com/SorinGFS/webaccess-middlewares/tree/master/access/body-parsers/data-adapter)
                 - [Method Overwrite](https://github.com/SorinGFS/webaccess-middlewares/tree/master/access/body-parsers/method-override)
                 - [Parse Form](https://github.com/SorinGFS/webaccess-middlewares/tree/master/access/body-parsers/parse-form)
+                - [Parse Form Data (upload files using Multer)](https://github.com/SorinGFS/webaccess-middlewares/tree/master/access/body-parsers/parse-form-data)
                 - [Parse Json](https://github.com/SorinGFS/webaccess-middlewares/tree/master/access/body-parsers/parse-json)
                 - [Parse Text](https://github.com/SorinGFS/webaccess-middlewares/tree/master/access/body-parsers/parse-text)
             - [Access Logs](https://github.com/SorinGFS/webaccess-middlewares/tree/master/access/access-logs)
