@@ -1,6 +1,6 @@
 {
   "name": "webaccess",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Access Management Reverse Proxy based on JWT.",
   "main": "index.js",
   "scripts": {
