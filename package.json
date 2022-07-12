@@ -20,9 +20,9 @@
     "express": "4.18.1",
     "express-http-proxy": "^1.6.3",
     "pluralize": "^8.0.0",
-    "webaccess-actions": "1.1.1",
-    "webaccess-base": "1.1.1",
-    "webaccess-middlewares": "1.1.1"
+    "webaccess-actions": "1.1.2",
+    "webaccess-base": "1.1.2",
+    "webaccess-middlewares": "1.1.2"
   },
   "devDependencies": {
     "commander": "^8.2.0",
