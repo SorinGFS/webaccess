@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "proxy",
+            "name": "webaccess",
             "script": "./index.js",
             "env": {
                 "NODE_ENV": "production"
@@ -10,7 +10,7 @@
             "exec_mode": "cluster"
         },
         {
-            "name": "proxy-dev",
+            "name": "webaccess-dev",
             "script": "./index.js",
             "env": {
                 "NODE_ENV": "development"
