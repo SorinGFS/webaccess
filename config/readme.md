@@ -1,4 +1,4 @@
-[Back to Main Page](https://github.com/SorinGFS/webaccess#configuration)
+[Back to Main Page](https://github.com/SorinGFS/webaccess#documentation)
 
 ### Motivation
 
@@ -92,4 +92,4 @@ server {
 
 The application is designed in a maximum flexible way and allows granular control by configuring each module separately on each server and on each route. Initially the application has no configured server. The simplest way to test a setup is to create a server config with this minimum content: `{"serverName": "your.domain.com", "server":{}}` which will send a `404` response (meaning that server is working and the proper configuration may begin). 
 
-[Go to configuration steps...](https://github.com/SorinGFS/webaccess#configuration)
+[Go to configuration steps...](https://github.com/SorinGFS/webaccess#documentation)

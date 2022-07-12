@@ -1,4 +1,4 @@
-[Back to Main Page](https://github.com/SorinGFS/webaccess#configuration)
+[Back to Main Page](https://github.com/SorinGFS/webaccess#documentation)
 
 ### Presets
 
