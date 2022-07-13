@@ -6,7 +6,7 @@ Access Management Reverse Proxy based on JWT.
 
 - [Getting Started](config)
     - [Requirements](config#requirements)
-    - [Instalation](config#instalation)
+    - [Instalation](config#installation)
     - [Proccess Manager](config#proccess-manager)
     - [Downstream Configuration](config#downstream-configuration)
 - [Configuration Steps](config#configuration)
