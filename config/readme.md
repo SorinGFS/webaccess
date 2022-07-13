@@ -13,7 +13,7 @@ It is a fact that access to internal applications can be much more easily contro
 
 ### Installation
 
-WebAccess itself is just a transparent proxy. Install it first (in Windows use `GitBash` or spread the commands):
+WebAccess itself is just a transparent proxy. Install it first (on Windows use `GitBash` or spread the commands):
 
 ```shell
 git clone https://github.com/SorinGFS/webaccess.git && cd webaccess && npm install
