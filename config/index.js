@@ -4,13 +4,7 @@
 module.exports = (workdir, filter) => {
     const fs = require('webaccess-base/fs');
     const fn = require('webaccess-base/fn');
-    // if enabled.json exists it will automatically update the links it contains
-    if (fs.exists(workdir, 'enabled.json')) {
-        const enabled = require(fs.pathResolve(workdir, 'enabled.json'));
-        const enable = require('./enable');
-        enable(workdir, enabled);
-    }
-    const links = fs.links(workdir, 'enabled');
+    const enabled = require(fs.pathResolve(workdir, 'enabled'));
     const sources = (paths) => {
         if (paths && typeof paths === 'string') return [...require(fs.pathResolve(workdir, paths))];
         const result = [];
@@ -20,7 +14,7 @@ module.exports = (workdir, filter) => {
         return result;
     };
     let configs = [];
-    links.forEach((config) => configs.push(require(fs.pathResolve(workdir, 'enabled', config))));
+    enabled.forEach((config) => configs.push(require(fs.pathResolve(workdir, 'available', config))));
     fn.replaceDeep(configs, 'include', sources);
     const filtered = configs.filter((config) => {
         return filter(config);

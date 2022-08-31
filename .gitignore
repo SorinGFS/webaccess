@@ -203,9 +203,6 @@ package-lock.json
 **/package-lock.json
 !docs/package-lock.json
 
-# keys symlinks
-config/**/enabled/**
-!config/**/enabled/.gitkeep
 # drafts folder
 zzz-drafts
 # temporary ignore
@@ -214,4 +211,4 @@ config/**/tests/**
 server/**/api/**
 base/
 !config/**/base/
-mongodb-blog.json
+mongodb-blog/

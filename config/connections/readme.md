@@ -45,15 +45,18 @@ Each connection must be configured in a separate file located in the `available`
 }
 ```
 
-Once configured, the configuration must be enabled by adding the corresponding symlink in `enabled` directory. This can be done in two ways:
+Once configured, the configuration must be enabled by adding the corresponding config in `enabled/index.json`.
 
--   manually adding the symlink in `enabled` dir
--   automatically (default) by specifying the enabled files in `enabled.json` as follows:
-
-**File:** `config/connections/enabled.json`
+**File:** `config/connections/enabled/index.json`
 
 ```json
 ["conf-1.json", "conf-2.json", "...", "conf-n.json"]
 ```
 
-**Note:** in case of manual management the `enabled.json` must be removed.
+Placing configs inside folders is also possible, in which case the config inside the folder must be placed in `index.json` file. For example, if config is inside `config/connections/available/mongooose/index.json`:
+
+**File:** `config/connections/enabled/index.json` should be:
+
+```json
+["mongoose"]
+```
