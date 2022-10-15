@@ -1,12 +1,12 @@
 'use strict';
 // The application transfers the requests to the server according to the requested host.
 const env = require('./config/env');
-const fn = require('webaccess-base/fn');
+const fn = require('zerodep/node/fn');
 const app = require('express')();
 const appConfig = require('./config/app');
 const accessDb = require('./config/connections')((config) => config.database === appConfig.accessDbName)[0];
 const configs = require('./config/servers')(() => true); // filter all
-const servers = require('webaccess-base/servers')(configs);
+const servers = require('webaccess-servers')(configs);
 const httpParsers = require('webaccess-middlewares/http-parsers');
 const handleError = require('webaccess-middlewares/http-errors');
 const createError = require('http-errors');

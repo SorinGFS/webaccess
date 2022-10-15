@@ -2,8 +2,8 @@
 // DO NOT MODIFY - this is standard generic config index
 // returns configs as ARRAY from the directories where it is requested
 module.exports = (workdir, filter) => {
-    const fs = require('webaccess-base/fs');
-    const fn = require('webaccess-base/fn');
+    const fs = require('zerodep/node/fs');
+    const fn = require('zerodep/node/fn');
     const enabled = require(fs.pathResolve(workdir, 'enabled'));
     const sources = (paths) => {
         if (paths && typeof paths === 'string') return [...require(fs.pathResolve(workdir, paths))];

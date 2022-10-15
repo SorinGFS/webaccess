@@ -2,7 +2,7 @@
 // http://expressjs.com/en/4x/api.html#router.route
 const router = require('express').Router();
 
-const fs = require('webaccess-base/fs');
+const fs = require('zerodep/node/fs');
 const expressProxy = require('express-http-proxy');
 
 // set express-http-proxy host and proxyOptions
