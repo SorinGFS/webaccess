@@ -23,7 +23,7 @@
     "webaccess-actions": "1.2.1",
     "webaccess-middlewares": "1.2.1",
     "webaccess-servers": "1.2.1",
-    "zerodep": "1.0.1"
+    "zerodep": "1.0.2"
   },
   "devDependencies": {
     "commander": "^8.2.0",
