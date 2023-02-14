@@ -1,6 +1,6 @@
 {
   "name": "webaccess",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "Access Management Reverse Proxy based on JWT.",
   "main": "index.js",
   "scripts": {
@@ -20,10 +20,10 @@
     "express": "4.18.2",
     "express-http-proxy": "^1.6.3",
     "pluralize": "^8.0.0",
-    "webaccess-actions": "1.2.1",
-    "webaccess-middlewares": "1.2.1",
-    "webaccess-servers": "1.2.1",
-    "zerodep": "1.0.2"
+    "webaccess-actions": "1.4.0",
+    "webaccess-middlewares": "1.4.0",
+    "webaccess-servers": "1.4.0",
+    "zerodep": "1.1.0"
   },
   "devDependencies": {
     "commander": "^8.2.0",
