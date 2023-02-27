@@ -15,7 +15,7 @@ module.exports = (workdir, filter) => {
     };
     let configs = [];
     enabled.forEach((config) => configs.push(require(fs.pathResolve(workdir, 'available', config))));
-    fn.replaceDeep(configs, 'include', sources);
+    fn.replaceDeepKey('include', sources, configs);
     const filtered = configs.filter((config) => {
         return filter(config);
     });
