@@ -20,10 +20,10 @@
     "express": "4.18.2",
     "express-http-proxy": "^1.6.3",
     "pluralize": "^8.0.0",
-    "webaccess-actions": "1.6.0",
-    "webaccess-middlewares": "1.6.0",
-    "webaccess-servers": "1.6.0",
-    "zerodep": "1.6.12"
+    "webaccess-actions": "1.7.0",
+    "webaccess-middlewares": "1.7.0",
+    "webaccess-servers": "1.7.0",
+    "zerodep": "1.7.0"
   },
   "devDependencies": {
     "commander": "^8.2.0",
